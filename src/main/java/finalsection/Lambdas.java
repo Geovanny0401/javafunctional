@@ -6,10 +6,7 @@ import java.util.function.Function;
 public class Lambdas {
 
     public static void main(String[] args) {
-
-        Integer number = null;
-        int counter =0;
-
+        
         BiFunction<String, Integer, String> upperCaseName = (name, age) -> {
             //logic
             if (name.isBlank()) throw new IllegalStateException("");
